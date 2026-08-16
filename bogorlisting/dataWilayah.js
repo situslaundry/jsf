@@ -1,0 +1,60 @@
+window.dataWilayah = window.dataWilayah || {
+      "kabupaten-bogor": {
+        name: "Kabupaten Bogor",
+        type: "Kabupaten",
+        kecamatan: {
+          "cileungsi": { name: "Cileungsi", desa: ["Pasirangin", "Cileungsi Kidul", "Cileungsi", "Limusnunggal", "Cipenjo", "Mekarsari", "Dayeuh", "Gandoang", "Mampir", "Jatisari", "Setu Sari", "Cipeucang"] },
+          "gunung-putri": { name: "Gunung Putri", desa: ["Wanaherang", "Tlajung Udik", "Bojong Nangka", "Gunung Putri", "Cicadas", "Bojong Kulur", "Nagrak", "Ciangsana", "Cikeas Udik", "Kragan"] },
+          "cibinong": { name: "Cibinong", desa: ["Cirimekar", "Ciriung", "Harapan Jaya", "Karadenan", "Nanggewer", "Nanggewer Mekar", "Pabuaran", "Pabuaran Mekar", "Pakansari", "Pondok Rajeg", "Sukahati", "Tengah", "Kalibaru"] },
+          "jonggol": { name: "Jonggol", desa: ["Jonggol", "Singajaya", "Sirnagalih", "Sukasirna", "Balekambang", "Bendungan", "Cibodas", "Sukanegara", "Weninggalih"] },
+          "citeureup": { name: "Citeureup", desa: ["Citeureup", "Puspanegara", "Karang Asem Barat", "Gunung Sari", "Hambalang", "Leuwinutug", "Pasir Mukti", "Sanja", "Sukahati", "Tajur", "Tanggulun"] },
+          "klapanunggal": { name: "Klapanunggal", desa: ["Bantarjati", "Bojong", "Cikahuripan", "Kembang Kuning", "Klapanunggal", "Leuwikaret", "Lulut", "Nambo", "Ligarmukti"] },
+          "babakan-madang": { name: "Babakan Madang", desa: ["Babakan Madang", "Bojong Koneng", "Cadas Ngampar", "Cipambuan", "Citaringgul", "Kadumangu", "Karang Tengah", "Sentul", "Sumur Batu"] },
+          "sukaraja": { name: "Sukaraja", desa: ["Cadasngampar", "Cibanon", "Cijujung", "Cikeas", "Cilebut Barat", "Cilebut Timur", "Cimandala", "Gunung Geulis", "Nagrak", "Pasir Jambu", "Pasirlaja", "Sukaraja", "Sukatani"] },
+          "bojonggede": { name: "Bojonggede", desa: ["Bojonggede", "Kedung Waringin", "Ragajaya", "Rawa Panjang", "Susukan", "Waringin Jaya", "Pabuaran", "Bojong Baru"] },
+          "kemang": { name: "Kemang", desa: ["Bojong", "Kemang", "Pabuaran", "Parakan Jaya", "Pondok Udik", "Semplak Barat", "Tegal"] },
+          "parung": { name: "Parung", desa: ["Bojong Indah", "Bojong Sempu", "Cogreg", "Iwul", "Jabon Mekar", "Pamagersari", "Parung", "Warujaya", "Warukalapa"] },
+          "parung-panjang": { name: "Parung Panjang", desa: ["Cibunar", "Cikuda", "Dago", "Gintung Cilejet", "Gorowong", "Jagabita", "Kabasiran", "Lumpang", "Parungpanjang", "Pingku"] },
+          "cariu": { name: "Cariu", desa: ["Babakan Raden", "Bantar Kuning", "Cariu", "Cibatu Tiga", "Cikutamahi", "Karya Mekar", "Kuta Mekar", "Mekarwangi", "Sukajadi", "Tegal Panjang"] },
+          "tanjungsari": { name: "Tanjungsari", desa: ["Antajaya", "Buanajaya", "Cibadak", "Pasir Tanjung", "Selawangi", "Sirnarasa", "Sirnasari", "Sukarasa", "Tanjungrasa", "Tanjungsari"] },
+          "sukamakmur": { name: "Sukamakmur", desa: ["Cibadak", "Pabuaran", "Sirnajaya", "Sukadamai", "Sukaharja", "Sukamakmur", "Sukamulya", "Sukaresmi", "Wargaluyu"] },
+          "ciawi": { name: "Ciawi", desa: ["Banjar Sari", "Banjar Wangi", "Bitung Sari", "Bojong Murni", "Ciawi", "Cibedug", "Cileungsi", "Citapen", "Jambu Luwuk", "Pandansari", "Teluk Pinang"] },
+          "cisarua": { name: "Cisarua", desa: ["Batulayang", "Cibeureum", "Cilember", "Cisarua", "Jogjogan", "Kopo", "Leuwimalang", "Tugu Selatan", "Tugu Utara"] },
+          "megamendung": { name: "Megamendung", desa: ["Cipayung Datar", "Cipayung Girang", "Gadog", "Kuta", "Megamendung", "Mensa", "Pasir Angin", "Sukagalih", "Sukakarya", "Sukamahi", "Sukamaju"] },
+          "cijeruk": { name: "Cijeruk", desa: ["Cibalung", "Cijeruk", "Cipelang", "Palasari", "Tajur Halang", "Tanjungsari", "Warung Menteng", "Sukaharja", "Cipicung"] },
+          "cigombong": { name: "Cigombong", desa: ["Ciburayut", "Ciburuy", "Cigombong", "Cisalada", "Pasirjaya", "Srogol", "Tugujaya", "Watesjaya", "Panyarungan"] },
+          "tamansari": { name: "Tamansari", desa: ["Calobak", "Pasireurih", "Sirnagalih", "Sukajadi", "Sukajaya", "Sukaluyu", "Sukamantri", "Tamansari"] },
+          "ciomas": { name: "Ciomas", desa: ["Ciomas", "Ciomas Rahayu", "Kotabatu", "Laladon", "Mekarjaya", "Pagelaran", "Parakan", "Sukaharja", "Sukamakmur"] },
+          "dramaga": { name: "Dramaga", desa: ["Babakan", "Ciherang", "Cikarawang", "Dramaga", "Neglasari", "Petir", "Purwasari", "Sinarsari", "Sukadamai", "Sukawening"] },
+          "tenjolaya": { name: "Tenjolaya", desa: ["Cibitung Tengah", "Cinangneng", "Gunung Malang", "Gunung Mulya", "Situ Daun", "Tapos I", "Tapos II"] },
+          "cibungbulang": { name: "Cibungbulang", desa: ["Cemplang", "Ciaruteun Ilir", "Ciaruteun Udik", "Cibatok I", "Cibatok II", "Cijujung", "Cimanggu 1", "Cimanggu 2", "Dukuh", "Galuga", "Girijaya", "Leuweung Kolot", "Situ Ilir", "Situ Udik", "Sukamaju"] },
+          "pamijahan": { name: "Pamijahan", desa: ["Ciasihan", "Ciasmara", "Cibening", "Cibitung Kulon", "Cibitung Wetan", "Cibunian", "Cimayang", "Gunung Bunder I", "Gunung Bunder II", "Gunung Menyan", "Gunung Picung", "Gunung Sari", "Pamijahan", "Pasarean", "Purwabakti"] },
+          "leuwiliang": { name: "Leuwiliang", desa: ["Barengkok", "Cibeber I", "Cibeber II", "Karacak", "Karyasari", "Karehkel", "Leuwiliang", "Leuwimekar", "Pabangbon", "Purasari", "Puraseda"] },
+          "leuwisadeng": { name: "Leuwisadeng", desa: ["Babakan Sadeng", "Kalong I", "Kalong II", "Leuwisadeng", "Sadeng", "Sadengkolot", "Sibanteng", "Wangun Jaya"] },
+          "nanggung": { name: "Nanggung", desa: ["Bantar Karet", "Batu Tulis", "Cisarua", "Curug Bitung", "Kalong Liud", "Malasari", "Nanggung", "Pangkal Jaya", "Sukaluyu", "Hambaro"] },
+          "sukajaya": { name: "Sukajaya", desa: ["Cileuksa", "Cisarua", "Jayaraharja", "Kiarapandak", "Kiarasari", "Madang", "Pasir Madang", "Sipayung", "Sukajaya", "Sukamulih", "Urug"] },
+          "jasinga": { name: "Jasinga", desa: ["Bageur", "Barengkok", "Cikopomayak", "Curug", "Jasinga", "Jugala Jaya", "Kalongsawah", "Koleang", "Pangaur", "Pangradin", "Sipak", "Setu", "Tegal Wangi"] },
+          "cigudeg": { name: "Cigudeg", desa: ["Argapura", "Banyuasih", "Banyuresmi", "Batujajar", "Bunar", "Cigudeg", "Cintamanik", "Mekarjaya", "Rengasjajar", "Sukajaya", "Sukaraksa", "Sukaraja", "Tegallega", "Wargajaya"] },
+          "tenjo": { name: "Tenjo", desa: ["Babakan", "Bojong", "Cilaku", "Ciomas", "Singabraja", "Tapos", "Tenjo"] },
+          "ranca-bungur": { name: "Ranca Bungur", desa: ["Bantarjaya", "Bantarsari", "Candali", "Mekarsari", "Pasircongtok", "Rancabungur", "Sukaresmi"] },
+          "tajurhalang": { name: "Tajurhalang", desa: ["Citayam", "Kalisuren", "Nanggerang", "Sasak Panjang", "Sukmajaya", "Tajurhalang", "Tonjong"] },
+          "ciseeng": { name: "Ciseeng", desa: ["Babakan", "Cibeuteung Muara", "Cibeuteung Udik", "Cibentang", "Cihoe", "Ciseeng", "Karihkil", "Kuripan", "Parigi Mekar", "Putat Nutug"] },
+          "gunung-sindur": { name: "Gunung Sindur", desa: ["Cibadung", "Cibinong", "Cidokom", "Curug", "Gunung Sindur", "Jampang", "Pabuaran", "Padurenan", "Pengasinan", "Rawa Kalong"] },
+          "rumpin": { name: "Rumpin", desa: ["Cibodas", "Cidokom", "Cipinang", "Gobang", "Hulubatu", "Kertajaya", "Leuwibatu", "Mekarsari", "Rumpin", "Sukamulya", "Sukasari", "Tamansari"] },
+          "tajur-katulampa": { name: "Caringin", desa: ["Caringin", "Ciherang Pondok", "Ciderum", "Cinagara", "Lemah Duhur", "Muara Jaya", "Pancawati", "Pasir Buncir", "Pasir Muncang", "Tangkil"] },
+          "sukajadi": { name: "Ciampea", desa: ["Bojong Jengkol", "Bojong Rangkas", "Ciampea", "Ciampea Udik", "Cibadak", "Cibanteng", "Cibuntu", "Cicadas", "Cihideung Ilir", "Cihideung Udik", "Cinangka", "Tegal Waru"] }
+        }
+      },
+      "kota-bogor": {
+        name: "Kota Bogor",
+        type: "Kota",
+        kecamatan: {
+          "bogor-barat": { name: "Bogor Barat", desa: ["Balungbangjaya", "Bubulak", "Cilendek Barat", "Cilendek Timur", "Curug", "Curugmekar", "Gunungbatu", "Loji", "Margajaya", "Menteng", "Pasirjaya", "Pasirkuda", "Pasirmulya", "Semplak", "Sindangbarang", "Situgede"] },
+          "bogor-selatan": { name: "Bogor Selatan", desa: ["Batutulis", "Bojongkerta", "Bondongan", "Cikaret", "Cipaku", "Empang", "Genteng", "Harjasari", "Kertamaya", "Lawanggintung", "Muarasari", "Mulyaharja", "Pakuan", "Pamoyanan", "Rancamaya", "Ranggamekar"] },
+          "bogor-tengah": { name: "Bogor Tengah", desa: ["Babakan", "Babakanpasar", "Cibogor", "Ciwaringin", "Gudang", "Kebonkelapa", "Pabaton", "Paledang", "Panaragan", "Sempur", "Tegallega"] },
+          "bogor-timur": { name: "Bogor Timur", desa: ["Baranangsiang", "Katulampa", "Sindangrasa", "Sindangbarang", "Sukasari", "Tajur"] },
+          "bogor-utara": { name: "Bogor Utara", desa: ["Bantarjati", "Cibuluh", "Ciluar", "Cimahpar", "Ciparigi", "Kedunghalang", "Tanahbaru", "Tegalgundil"] },
+          "tanah-sareal": { name: "Tanah Sareal", desa: ["Cibadak", "Kayumanis", "Kebonpedes", "Kedungbadak", "Kedungjaya", "Kedungwaringin", "Kencana", "Mekarwangi", "Sukadamai", "Sukaresmi", "Tanahsareal"] }
+        }
+      }
+    };
