@@ -1,0 +1,19 @@
+window.SITE_CONFIG = window.SITE_CONFIG || {
+      defaultPhone: "085773009666",
+      phoneRouting: {
+        "jakarta": "088808181008",
+        "jakarta-selatan": "088808181008",
+        "jakarta-barat": "088808181008",
+        "jakarta-pusat": "088808181008",
+        "jakarta-timur": "088808181008",
+        "jakarta-utara": "088808181008",
+        "kabupaten-bogor": "085773009666",
+        "kota-bogor": "085773009666",
+        "kota-depok": "085773009666",
+        "kota-tangerang": "085773009666",
+        "kota-tangerang-selatan": "085773009666",
+        "kabupaten-tangerang": "085773009666",
+        "kota-bekasi": "085773009666",
+        "kabupaten-bekasi": "085773009666"
+      }
+    };
